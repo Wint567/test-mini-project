@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .ITstandarts {
+        .ITstandarts__block{
+            display: flex;
+            flex-direction: column;
+        }
+        .ITstandarts__title {
+            font-size: 28px;
+        }
+        .ITstandarts__info, .ITstandarts__link{
+            font-size: 14px;
+        }
+        .ITstandarts__text{
+            font-size: 14px;
+        }
+        .ITstandarts__list {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .ITstandarts {
+        & .ITstandarts__block{
+            display: flex;
+            flex-direction: column;
+        }
+        & .ITstandarts__title {
+            font-size: 22px;
+        }
+        & .ITstandarts__info{
+            font-size: 10px;
+        }
+        & .ITstandarts__link{
+            font-size: 12px;
+        }
+        & .ITstandarts__text{
+            font-size: 12px;
+        }
+    }
+}

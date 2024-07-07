@@ -1,0 +1,105 @@
+@import 'adaptive';
+.ITstandarts {
+    background: #f6f6f8;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    & .ITstandarts__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__block {
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    &__info-block {
+        max-width: 489px;
+        width: 100%;
+    }
+    &__title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        text-align: left;
+        color: #323232;
+        line-height: 1.47;
+        font-size: 20px;
+        margin-bottom: 60px;
+        font-size: 36px;
+    }
+    &__info {
+        margin-bottom: 42px;
+        color: #999999;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.36px;
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+    }
+    &__link {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        text-decoration-line: underline;
+        color: #4985ff;
+    }
+    &__img {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+        justify-content: space-evenly;
+        border-top: 1px solid #e0e0e0;
+        padding-top: 70px;
+    }
+    &__svg {
+        width: 30px;
+        height: 30px;
+        fill: #4985ff;
+    }
+    &__statistics {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 53px;
+        color: #000;
+    }
+    &__text {
+        font-family: "Montserrat", sans-serif;
+        color: #999;
+    }
+    &__item{
+        width: 104px;
+        height: 67px;
+        padding: 20px;
+    }
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
